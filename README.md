@@ -3,13 +3,13 @@ Dieses Repository dient der Ablage von persönlichen Python-Skripten, aufbereite
 Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte der Zwischenschritte auf dem Weg zum Endprodukt. 
 
 ## Enthaltene Skripte in "testandsteps"
-A1-1_Datenvorverarbeitung.py
-A1-2_Vektorisierung.py
-A1-3_Semantische-Analyse.py
-A1-4_Interpretation.py
+- A1-1_Datenvorverarbeitung.py
+- A1-2_Vektorisierung.py
+- A1-3_Semantische-Analyse.py
+- A1-4_Interpretation.py
 
 ## Enthaltener vorbereiteter Datensatz in "testandsteps"
-testdata.csv
+- testdata.csv
 
 ## Systemvoraussetzungen zur Ausführung der Python-Skripte:
 - vorhandene Python 3 Installation
