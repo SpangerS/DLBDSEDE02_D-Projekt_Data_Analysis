@@ -23,3 +23,5 @@ Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte
 ## Verwendung der Skripte:
 Skripte enthalten hartcodierte Pfade, die gegebenenfalls an die eigene Umgebung anzupassen sind.
 
+## Verwendete Daten
+Der aufbereitete Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.
