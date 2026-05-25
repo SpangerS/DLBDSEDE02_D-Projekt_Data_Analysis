@@ -6,9 +6,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.decomposition import LatentDirichletAllocation
+from pathlib import Path
 
 # Laden des deutschen SpaCy-Modells, für den Lemmatizer
 nlp = spacy.load("de_core_news_sm", disable=["parser", "ner"])
+
+# Abfrage des indivduellen Datenpfades für die Quell-CSV
+pfad = input("Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an: ")
+print("Der angegebene Pfad lautet: " + pfad)
 
 # Definition für die später genutzte Funktion zur Lemmatisierung, Kleinschreibung und Entfernung von Stoppwörtern
 def german_lemmatizer(text):
@@ -25,7 +30,7 @@ def german_lemmatizer(text):
 # Datenkorpus aus CSV importieren & Zählvariable für Anzahl Artikel definieren & mitzählen
 corpus = []
 a1 = 0
-with open("C:/Temp/testdata.csv", encoding='utf-8', errors='replace') as csvdatei:
+with open(pfad, encoding='utf-8', errors='replace') as csvdatei:
     csv_reader_object = csv.reader(csvdatei)
     for row in csv_reader_object:
         corpus.append(', '.join(row))
