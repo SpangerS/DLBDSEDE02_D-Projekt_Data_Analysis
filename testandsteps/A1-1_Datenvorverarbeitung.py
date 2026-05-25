@@ -1,14 +1,19 @@
 # Import notwendiger Bibliotheken und Methoden
 import spacy
 import csv
+from pathlib import Path
 
 # Laden des deutschen SpaCy-Modells, für den Lemmatizer
 nlp = spacy.load("de_core_news_sm", disable=["parser", "ner"])
 
+# Abfrage des indivduellen Datenpfades für die Quell-CSV
+pfad = input("Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an: ")
+print("Der angegebene Pfad lautet: " + pfad)
+
 # Datenkorpus aus CSV werden importiert (unbekannte Zeichen werden ersetzt) und eine Zählvariable für Anzahl der Artikel wird definiert und mitgezählt
 corpus = []
 a1 = 0
-with open("C:/Temp/testdata.csv", encoding='utf-8', errors='replace') as csvdatei:
+with open(pfad, encoding='utf-8', errors='replace') as csvdatei:
     csv_reader_object = csv.reader(csvdatei)
     for row in csv_reader_object:
         corpus.append(', '.join(row))
