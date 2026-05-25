@@ -13,6 +13,15 @@ nlp = spacy.load("de_core_news_sm", disable=["parser", "ner"])
 pfad = input("Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an: ")
 print("Der angegebene Pfad lautet: " + pfad)
 
+# Abfrage eines individuellen Output-Pfades für die Vektoren und Definition der Files
+outputpfad = input("Bitte geben Sie einen Pfad - inklusive Slash (Linux) oder Backslash (Windows) - für den CSV-Output der erzeugten Vektoren an: ")
+print("Der angegebene Output-Pfad lautet: " + outputpfad)
+bow_output = outputpfad + "BoW_vektoren.csv"
+tfidf_output = outputpfad + "Tfidf_vektoren.csv"
+print("Folgende Dateien werden durch dieses Skript erstellt: ")
+print(bow_output)
+print(tfidf_output)
+
 # Definition für die später genutzte Funktion zur Lemmatisierung, Kleinschreibung und Entfernung von Stoppwörtern
 def german_lemmatizer(text):
     doc = nlp(text)
@@ -50,9 +59,9 @@ print(bow_data)
 print('In der ersten Zeile steht der BoW, darunter die Tf-idf-Vektoren für jeden Satz des Text-Korpus:') 
 print(tfidf_data) 
 
-with open('C:/Temp/BoW_vektoren.csv', 'w', newline='') as bow_outfile:
+with open(bow_output, 'w', newline='') as bow_outfile:
     bow_data.to_csv(bow_outfile)
-with open('C:/Temp/Tfidv_vektoren.csv', 'w', newline='') as tfidf_outfile:
+with open(tfidf_output, 'w', newline='') as tfidf_outfile:
     tfidf_data.to_csv(tfidf_outfile)
 
 print("Prüfen Sie bitte die erstellten CSV-Files.")
