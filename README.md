@@ -21,8 +21,8 @@ Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte
 	- numpy
 
 ## Verwendung der Skripte:
-Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv") inklusive Pfad, zur dynamischen Verwendung.
-Das Skript "A1-2_Vektorisierung.py" enthält zudem die Aufforderung zur Angabe des Outputpfades für zwei erzeugte CSV-Files.
+Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv") inklusive Pfad, zur dynamischen Verwendung.  
+Das Skript "A1-2_Vektorisierung.py" enthält zudem die Aufforderung zur Angabe des Outputpfades für zwei erzeugte CSV-Files.  
 Kleinere Prüfroutinen für einen legitimen/fehlerfreien Input-Pfad sind erst im Endprodukt vorgesehen/implementiert.
 
 ## Verwendete Daten
