@@ -11,6 +11,9 @@ Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte
 ## Enthaltener vorbereiteter Datensatz in "testandsteps"
 - testdata.csv
 
+## Ordner "outputfiles" ergänzt
+Dieser Ordner enthält die Ausgaben der jeweiligen Python-Skripte aus "testandsteps", sowie die beiden in Skript A1-2 erzeugten CSV-Files.
+
 ## Systemvoraussetzungen zur Ausführung der Python-Skripte:
 - vorhandene Python 3 Installation
 - Installation notwendiger Bibliotheken via "pip-Befehl":
