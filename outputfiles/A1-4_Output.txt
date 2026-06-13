@@ -1,0 +1,31 @@
+Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an:  C:\Temp\testdata.csv
+Der angegebene Pfad lautet: C:\Temp\testdata.csv
+Für das LDA-Modell wählen wir die probabilistische Methode durch Summieren der Themenverteilung im Datensatz, so werden multiple Themen je Artikel berücksichtigt.
+
+Darstellung der häufigsten Themen mit den jeweiligen Top-10 Worten:
+
+Thema #0:
+the orf wien usa wiener zeitung euro new serie film
+Thema #1:
+orf österreichisch prozent facebook journalist apa vorstellen österreich verfügung jänner
+Thema #2:
+medium facebook flüchtling zeitung bild orf kind frau chefredakteur prozent
+Thema #3:
+orf thomas standard wien österreichisch apa film sehen wählen angebot
+Thema #4:
+europa gast juni sendung nutzen mitglied berlin wert laut sonntag
+Thema #5:
+prozent spö orf wien euro standard österreich övp faymann million
+Thema #6:
+serie of frage stellen medium berlin orf standard schreiben mensch
+Thema #7:
+lehrer entscheidung österreich sinn arbeit europäisch schüler fall gast övp
+Thema #8:
+journalist berlin montag sonntag medium berichten chefredakteur wien zeitung deutsch
+Thema #9:
+of mitarbeiter journalist freitag schauen sagen flüchtling fpö haus standard
+
+Häufigste Themen (Index): [5 0 8 9 2 3 1 6 4 7]
+Summe der Wahrscheinlichkeiten: [711.39985717 138.99378931  30.38914849  21.46402645  19.80165035
+  19.69153352  19.06520729  19.06512775  19.06492262  19.06473705]
+Drücken Sie Enter, um das Fenster zu schließen oder das Programm zu beenden. 

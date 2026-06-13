@@ -1,0 +1,69 @@
+Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an:  C:\Temp\testdata.csv
+Der angegebene Pfad lautet: C:\Temp\testdata.csv
+Der Nachteil der folgenden Darstellungen ist, dass jeweils der Inhalt eines einzelnen Artikels gegenüber der identifizierten Themen dargestellt wird.
+Die Darstellung der insgesamt häufigsten vorkommenden Themen bedarf etwas Nachbereitung.
+
+Die Themen dieses Artikels stimmen der LSA Analyse nach einem Grad von: 
+27.30  zu den Top-Wörtern von Thema  1  überein.
+Top-Wörter: 
+orf prozent wien
+-4.13  zu den Top-Wörtern von Thema  2  überein.
+Top-Wörter: 
+orf usa the
+28.03  zu den Top-Wörtern von Thema  3  überein.
+Top-Wörter: 
+prozent million euro
+9.60  zu den Top-Wörtern von Thema  4  überein.
+Top-Wörter: 
+orf prozent spö
+7.55  zu den Top-Wörtern von Thema  5  überein.
+Top-Wörter: 
+standard schule schüler
+-4.30  zu den Top-Wörtern von Thema  6  überein.
+Top-Wörter: 
+standard million euro
+26.37  zu den Top-Wörtern von Thema  7  überein.
+Top-Wörter: 
+prozent mensch deutschland
+1.22  zu den Top-Wörtern von Thema  8  überein.
+Top-Wörter: 
+journalist österreich orf
+12.68  zu den Top-Wörtern von Thema  9  überein.
+Top-Wörter: 
+universität österreich österreichisch
+-10.25  zu den Top-Wörtern von Thema  10  überein.
+Top-Wörter: 
+fpö kind deutsch
+
+Die Themen des ersten Artikel passen nach LDA-Analyse: 
+2.10 % zu Thema von  1
+Top-Wörter: 
+the
+2.10 % zu Thema von  2
+Top-Wörter: 
+orf
+2.10 % zu Thema von  3
+Top-Wörter: 
+medium
+2.10 % zu Thema von  4
+Top-Wörter: 
+orf
+2.10 % zu Thema von  5
+Top-Wörter: 
+europa
+81.14 % zu Thema von  6
+Top-Wörter: 
+prozent
+2.10 % zu Thema von  7
+Top-Wörter: 
+serie
+2.10 % zu Thema von  8
+Top-Wörter: 
+lehrer
+2.10 % zu Thema von  9
+Top-Wörter: 
+journalist
+2.10 % zu Thema von  10
+Top-Wörter: 
+of
+Drücken Sie Enter, um das Fenster zu schließen oder das Programm zu beenden.
