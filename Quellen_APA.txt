@@ -1,0 +1,7 @@
+APA-Zitation der verwendeten Quelldatensätze
+
+testdata.csv:
+tblock. 2019. 10kGNAD - Ten Thousand German News Articles Dataset. https://github.com/tblock/10kGNAD/tree/master
+
+testdata_new.csv:
+The Devastator. 2023. Patient Reviews of Doctor's Text Classification. https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto
