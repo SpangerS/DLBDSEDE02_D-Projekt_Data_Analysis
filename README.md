@@ -1,6 +1,6 @@
 # Persönliche Ausarbeitung des Projektes: "Data Analysis" der International University im Kurs DLBDSEDA02_D
 Dieses Repository dient der Ablage von persönlichen Python-Skripten, aufbereiteten Testdatensätzen und ggf. weiterer Informationen zur Bearbeitung/Ausarbeitung des Projekt-Kurses "DLBDSEDA02_D - Data Analysis der IU".  
-Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte der Zwischenschritte auf dem Weg zum Endprodukt. 
+Der Ordner "testandsteps" enthält die im Test verwendeten Datensätze und Skripte der Zwischenschritte auf dem Weg zum Endprodukt. 
 
 ## Enthaltene Skripte in "testandsteps"
 - A1-1_Datenvorverarbeitung.py
