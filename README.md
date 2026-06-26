@@ -34,5 +34,5 @@ Das Skript "A1-2_Vektorisierung.py" enthält zudem die Aufforderung zur Angabe d
 Kleinere Prüfroutinen für einen legitimen/fehlerfreien Input-Pfad sind erst im Endprodukt vorgesehen/implementiert.
 
 ## Verwendete Daten
-Der aufbereitete erste Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.
+Der aufbereitete erste Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.  
 Der aufbereitete zweite/neue Test-Datensatz (testdata_new.csv) basiert auf dem Dataset 2021_german_doctor_reviews.csv (https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto) von The Devastator auf Kaggle, mit der Lizenzierung "Data files © Original Authors".
