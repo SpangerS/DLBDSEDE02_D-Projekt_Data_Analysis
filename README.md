@@ -7,12 +7,15 @@ Der Ordner "testandsteps" enthält den im Test verwendeten Datensatz und Skripte
 - A1-2_Vektorisierung.py
 - A1-3_Semantische-Analyse.py
 - A1-4_Interpretation.py
+- A1-5_Visualisierung_WordCloud.py
+- A1-6_Doc-Reviews.py
 
-## Enthaltener vorbereiteter Datensatz in "testandsteps"
+## Enthaltene vorbereitete Datensätze in "testandsteps"
 - testdata.csv
+- testdata_new.csv
 
 ## Ordner "outputfiles" ergänzt
-Dieser Ordner enthält die Ausgaben der jeweiligen Python-Skripte aus "testandsteps", sowie die beiden in Skript A1-2 erzeugten CSV-Files.
+Dieser Ordner enthält die Ausgaben der jeweiligen Python-Skripte aus "testandsteps", die beiden in Skript A1-2 erzeugten CSV-Files, sowie die Wortwolken aus den Skripten A1-5 und A1-6.
 
 ## Systemvoraussetzungen zur Ausführung der Python-Skripte:
 - vorhandene Python 3 Installation
@@ -22,11 +25,14 @@ Dieser Ordner enthält die Ausgaben der jeweiligen Python-Skripte aus "testandst
 	- pandas
 	- scikit-learn
 	- numpy
+   	- matplotlib
+   	- wordcloud
 
 ## Verwendung der Skripte:
-Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv") inklusive Pfad, zur dynamischen Verwendung.  
+Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv" oder "testdata_new.csv") inklusive Pfad, zur dynamischen Verwendung.  
 Das Skript "A1-2_Vektorisierung.py" enthält zudem die Aufforderung zur Angabe des Outputpfades für zwei erzeugte CSV-Files.  
 Kleinere Prüfroutinen für einen legitimen/fehlerfreien Input-Pfad sind erst im Endprodukt vorgesehen/implementiert.
 
 ## Verwendete Daten
-Der aufbereitete Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.
+Der aufbereitete erste Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.
+Der aufbereitete zweite/neue Test-Datensatz (testdata_new.csv) basiert auf dem Dataset 2021_german_doctor_reviews.csv (https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto) von The Devastator auf Kaggle, mit der Lizenzierung "Data files © Original Authors".
