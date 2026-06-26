@@ -1,0 +1,25 @@
+Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an:  C:\Temp\testdata_new.csv
+Der angegebene Pfad lautet: C:\Temp\testdata_new.csv
+Liste der Top-Begriffe inklusive ihrer Gesamtgewichtung: 
+
+TOP 1 : 121.51 dr.
+TOP 2 : 91.55 arzt
+TOP 3 : 81.02 praxis
+TOP 4 : 80.37 frau
+TOP 5 : 73.65 nehmen
+TOP 6 : 71.99 freundlich
+TOP 7 : 71.98 behandlung
+TOP 8 : 67.76 helfen
+TOP 9 : 57.81 empfehlen
+TOP 10 : 56.45 kompetent
+ 
+Die Wordcloud über alle Artikel hinweg zur Visualisierung der wichtigsten Themen, wird im Pop-Up Fenster geöffnet.
+Bitte schließen sie das Pop-Up um zu diesem Fenster zurückzukehren und das Programm zu beenden.
+
+ 
+Die neue Quelle zeigt ein deutlich verbessertes Ergebnis.
+Dass bei Rezensionen natürlich die Worte "Arzt" und "Dr." zentral sind ist logisch. 
+Aber es zeigen sich besonders in der Wortwolke zahlreiche relevante Begriffe die einen Schluss auf relevante Themen wie "Kompetenz", "Termin", "Zufriedenheit" und "Beratung" ermöglichen, um nur einige wenige zu nennen.
+Ähnlich ist dies im Beschwerdemanagement einer Kommune/Stadt/Gemeinde zu erwarten.
+Auch die reduzierte Durchlaufdauer der deutlich kürzeren Elemente sticht hervor.
+Drücken Sie Enter, um das Fenster zu schließen oder das Programm zu beenden.

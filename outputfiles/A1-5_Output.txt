@@ -1,0 +1,23 @@
+Bitte geben Sie den Quelldatensatz (CSV-File) mit vollständigem Pfad an:  C:\Temp\testdata_new.csv
+Der angegebene Pfad lautet: C:\Temp\testdata.csv
+Liste der Top-Begriffe inklusive ihrer Gesamtgewichtung: 
+
+TOP 1 : 45.68 orf
+TOP 2 : 42.29 wien
+TOP 3 : 41.24 prozent
+TOP 4 : 37.28 spö
+TOP 5 : 36.92 euro
+TOP 6 : 34.56 österreich
+TOP 7 : 34.03 standard
+TOP 8 : 28.95 million
+TOP 9 : 27.30 övp
+TOP 10 : 26.61 faymann
+ 
+Wordcloud über alle Artikel hinweg zur Visualisierung der wichtigsten Themen:
+ 
+Letztlich zeigt sich, dass die Qualität der Test-Datenquelle doch nicht den Wunschzweck zu erfüllt.
+Viele der Artikel in der Quelle weisen inhaltlich gleiche Worte auf, die zwar keine Stoppwörter in ihrer Masse aber ohne wertvolle Bedeutung sind.
+Weiterhin werden viele dieser Worte dann meherere Themen/Topics zugeordnet.
+Besonders auffällig ist die hohe Bedeutung von Namen, Städten und Ländern.
+Eventuell wäre eine weitere Bereinigung dieser häufig auftretenden aber bedeutungslosen Worte notwendig.
+Für einen weiteren Test ist es geplant eine eine andere Datenquelle zu verwenden.
