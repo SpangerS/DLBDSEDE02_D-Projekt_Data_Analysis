@@ -27,6 +27,8 @@ Dieser Ordner enthält die Ausgaben der jeweiligen Python-Skripte aus "testandst
 	- numpy
    	- matplotlib
    	- wordcloud
+- Installation des deutschen Sprachpaktes für SpaCy via System-Termial/Kommandozeile. Befehl:
+  	- python -m spacy download de_core_news_sm
 
 ## Verwendung der Skripte:
 Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv" oder "testdata_new.csv") inklusive Pfad, zur dynamischen Verwendung.  
