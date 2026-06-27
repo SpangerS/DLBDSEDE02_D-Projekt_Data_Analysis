@@ -36,7 +36,8 @@ Für weitere Informationen zur Verwendung ist die Nutzungsanleitung beigefügt.
 ## Verwendung der Skripte:
 Alle Skripte enthalten eine Eingabe-Aufforderung zur Angabe Input-Datei (im Beipsiel "testdata.csv" oder "testdata_new.csv") inklusive Pfad, zur dynamischen Verwendung.  
 Das Skript "A1-2_Vektorisierung.py" enthält zudem die Aufforderung zur Angabe des Outputpfades für zwei erzeugte CSV-Files.  
-Kleinere Prüfroutinen für einen legitimen/fehlerfreien Input-Pfad sind im Endprodukt implementiert.
+Kleinere Prüfroutinen für einen legitimen/fehlerfreien Input-Pfad sind im Endprodukt implementiert.  
+Weitere Informationen zur Verwendung sind der Nutzungsanleitung zu entnehmen.
 
 ## Verwendete Daten
 Der aufbereitete erste Test-Datensatz (testdata.csv) basiert auf dem Projekt 10kGNAD (https://github.com/tblock/10kGNAD/tree/master) von tblock, lizenziert unter CC BY-NC-SA 4.0.  
