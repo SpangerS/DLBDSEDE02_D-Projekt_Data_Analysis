@@ -30,7 +30,7 @@ Für weitere Informationen zur Verwendung ist die Nutzungsanleitung beigefügt.
 	- numpy
    	- matplotlib
    	- wordcloud
-- Installation des deutschen Sprachpaktes für SpaCy via System-Termial/Kommandozeile. Befehl:
+- Installation des deutschen Sprachpaktes für SpaCy via System-Terminal/Kommandozeile. 
   	- python -m spacy download de_core_news_sm
 
 ## Verwendung der Skripte:
