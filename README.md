@@ -18,7 +18,7 @@ Der Ordner "outputfiles" enthält Ausgaben der jeweiligen Python-Skripte aus "te
 ## Finales Produkt - Final.py
 Das Python-Skript "Final.py" stellt das finale Produkt der Entwicklung dar.  
 Unter Berücksichtigung der Systemvoraussetzungen und der Verwendung eines geeigneten Datensatzes, gibt die Ausführung eine Liste der Top-10 relevantesten Worte des Datensatzes sowie eine Wortwolke der relevantesten Begriffe aus.  
-Für weitere Informationen zur Verwendung ist die Nutzungsanleitung zu beigefügt.   
+Für weitere Informationen zur Verwendung ist die Nutzungsanleitung beigefügt.   
 
 ## Systemvoraussetzungen zur Ausführung der Python-Skripte:
 - vorhandene Python 3 Installation
